@@ -1,0 +1,196 @@
+/*----------------------------------------
+[Master Stylesheet]
+
+----------------------------------------*/
+/*----------------------------------------
+[Table of contents]
+
+1. Header
+2. Home
+3. Content
+4. Section
+5. Breadcrumb
+6. Card
+7. Details
+8. FAQ
+9. How
+10. Partners
+11. Price
+12. Feature
+13. Catalog
+14. Filter
+15. Paginator
+16. Comments
+17. Reviews
+18. Form
+19.	Gallery
+20. Accordion
+21. Footer
+22. Sign
+23. Page 404
+24. Plyr customization
+25. PhotoSwipe customization
+26. mCustomScrollbar customization
+----------------------------------------*/
+/*==============================
+	Common styles
+==============================*/
+
+/*==============================
+	Price
+==============================*/
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 15px;
+  background-color: #2b2b31;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  margin: 15px 0;
+  position: relative;
+  border-radius: 12px;
+}
+.price--premium:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
+  box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
+}
+.price--premium .price__item:before {
+  background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+}
+.price__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 15px;
+  color: rgba(255,255,255,0.7);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  position: relative;
+  padding-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.price__item:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5);
+  left: 0;
+  top: 50%;
+  margin-top: 4px;
+}
+.price__item--first {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 0;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+}
+.price__item--first:before {
+  display: none;
+}
+.price__item--first span:last-child {
+  font-weight: 500;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+}
+.price__item:nth-child(2) {
+  border: none;
+}
+.price__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
+  box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
+  opacity: 0.85;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.price__btn:hover {
+  opacity: 1;
+  color: #fff;
+}
+@media (min-width: 576px) {
+  .price {
+    padding: 25px 20px;
+  }
+  .price__btn {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .price {
+    padding: 25px;
+  }
+}
+.plan-features {
+  margin-top: 15px;
+}
+.plan-features li {
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  padding-left: 40px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.plan-features li:before {
+  content: '\f3ff';
+  font-family: "Ionicons";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+  font-size: 28px;
+  line-height: 26px;
+}
+@media (min-width: 768px) {
+  .plan-features {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}

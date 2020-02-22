@@ -26,8 +26,15 @@
     <meta name="format-detection" content="telephone-no">
 
     <!-- CSS files -->
+
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -43,7 +50,7 @@
                 <div class="row">
                     <label for="username">
                         Username:
-                        <input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
                     </label>
                 </div>
 
@@ -165,6 +172,12 @@
                             </ul>
                         </li>
 
+                        <li class="first">
+                            <a class="btn btn-default lv1" href="pricing.php">
+                                Pricing
+                            </a>
+                        </li>
+
                         <li class="dropdown first">
                             <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
                                 Profile <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -188,4 +201,3 @@
 
     </header>
     <!-- END | Header -->
-    
