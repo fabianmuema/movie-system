@@ -4045,7 +4045,7 @@ ul {
 .trailers.full-width,
 .latestnew.full-width,
 .full-width {
-  padding: 30px 50px;
+  padding: 30px 60px;
 }
 @media (max-width: 767px) {
   .movie-items.full-width,
@@ -4656,7 +4656,7 @@ ul {
 }
 .title-hd h2 {
   font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -5680,7 +5680,7 @@ ul {
   background: url('../images/uploads/user-hero-bg.jpg') no-repeat;
 }
 .user-hero .hero-ct {
-  padding-top: 225px;
+  padding-top: 0;
 }
 .user-hero .hero-ct h1 {
   margin-left: -120px;
@@ -5794,7 +5794,7 @@ ul {
 .user-information {
   border: 3px solid #0f2133;
   margin-right: 30px;
-  margin-top: -200px;
+  margin-top: -350px;
   background-color: #020d18;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -5847,7 +5847,7 @@ ul {
 }
 .page-single {
   background-color: #020d18;
-  padding: 75px 0;
+  padding: 120px 0;
 }
 .social-btn {
   margin-bottom: 40px;
@@ -8281,4 +8281,8 @@ footer.full-width-ft .ft-copyright {
   color: #8c9296;
   font-family: 'Dosis', sans-serif;
   font-weight: 700;
+}
+
+.movie-tabs {
+  margin-top: -50px;
 }

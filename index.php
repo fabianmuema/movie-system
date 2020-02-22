@@ -1,6 +1,6 @@
 <?php
 
-require 'includes/main_header.php';
+include 'includes/main_header.php';
 
 ?>
 <div class="slider sliderv2">
@@ -108,7 +108,7 @@ require 'includes/main_header.php';
 			            	<div class="slick-multiItem2">
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it1.jpg" alt="">
 											</div>
@@ -117,7 +117,7 @@ require 'includes/main_header.php';
 			            		</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it2.jpg" alt="">
 											</div>
@@ -126,7 +126,7 @@ require 'includes/main_header.php';
 								</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it3.jpg" alt="">
 											</div>
@@ -135,7 +135,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it4.jpg" alt="">
 											</div>
@@ -144,7 +144,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it5.jpg" alt="">
 											</div>
@@ -153,7 +153,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it6.jpg" alt="">
 											</div>
@@ -162,7 +162,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it7.jpg" alt="">
 											</div>
@@ -171,7 +171,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it8.jpg" alt="">
 											</div>
@@ -195,7 +195,7 @@ require 'includes/main_header.php';
 							<div class="slick-multiItem2">
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it1.jpg" alt="">
 											</div>
@@ -204,7 +204,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it2.jpg" alt="">
 											</div>
@@ -213,7 +213,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it3.jpg" alt="">
 											</div>
@@ -222,7 +222,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it4.jpg" alt="">
 											</div>
@@ -231,7 +231,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it5.jpg" alt="">
 											</div>
@@ -240,7 +240,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it6.jpg" alt="">
 											</div>
@@ -249,7 +249,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it7.jpg" alt="">
 											</div>
@@ -258,7 +258,7 @@ require 'includes/main_header.php';
 								</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a href="moviesingle.html">
+										<a href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it8.jpg" alt="">
 											</div>
@@ -282,7 +282,7 @@ require 'includes/main_header.php';
 			            	<div class="slick-multiItem2">
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it7.jpg" alt="">
 											</div>
@@ -291,7 +291,7 @@ require 'includes/main_header.php';
 			            		</div>
 								<div class="slide-it">
 									<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it8.jpg" alt="">
 											</div>
@@ -300,7 +300,7 @@ require 'includes/main_header.php';
 								</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it9.jpg" alt="">
 											</div>
@@ -309,7 +309,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it4.jpg" alt="">
 											</div>
@@ -318,7 +318,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it5.jpg" alt="">
 											</div>
@@ -327,7 +327,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it6.jpg" alt="">
 											</div>
@@ -336,7 +336,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it7.jpg" alt="">
 											</div>
@@ -345,7 +345,7 @@ require 'includes/main_header.php';
 			            		</div>
 			            		<div class="slide-it">
 			            			<div class="movie-item">
-										<a  href="moviesingle.html">
+										<a  href="moviesingle.php">
 											<div class="mv-img">
 												<img src="images/uploads/mv-it8.jpg" alt="">
 											</div>
@@ -364,6 +364,6 @@ require 'includes/main_header.php';
 
 <?php
 
-require 'includes/main_footer.php';
+include 'includes/main_footer.php';
 
 ?>

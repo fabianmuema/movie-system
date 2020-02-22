@@ -121,7 +121,7 @@
                             <span></span>
                         </div>
                     </div>
-                    <a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+                    <a href="index.php"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
@@ -130,7 +130,7 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="first">
-                            <a class="btn btn-default lv1" data-toggle="dropdown" data-hover="dropdown">
+                            <a class="btn btn-default lv1" href="index.php">
                                 Home
                             </a>
                         </li>
@@ -142,11 +142,11 @@
                                 <!-- <li class="dropdown">
 									<a href="#">about us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 									<ul class="dropdown-menu level2">
-										<li><a href="aboutv1.html">About Us 01</a></li>
-										<li><a href="aboutv2.html">About Us 02</a></li>
+										<li><a href="aboutv1.php">About Us 01</a></li>
+										<li><a href="aboutv2.php">About Us 02</a></li>
 									</ul>
 								</li> -->
-                                <li><a href="moviegridfw.html">All</a></li>
+                                <li><a href="moviegridfw.php">All</a></li>
                             </ul>
                         </li>
                         <li class="dropdown first">
@@ -157,11 +157,11 @@
                                 <!-- <li class="dropdown">
 															<a href="#">about us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 															<ul class="dropdown-menu level2">
-																<li><a href="aboutv1.html">About Us 01</a></li>
-																<li><a href="aboutv2.html">About Us 02</a></li>
+																<li><a href="aboutv1.php">About Us 01</a></li>
+																<li><a href="aboutv2.php">About Us 02</a></li>
 															</ul>
 														</li> -->
-                                <li><a href="moviegridfw.html">All</a></li>
+                                <li><a href="moviegridfw.php">All</a></li>
                             </ul>
                         </li>
 
@@ -170,9 +170,8 @@
                                 Profile <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <ul class="dropdown-menu level1">
-                                <li><a href="userfavoritegrid.html">user favorite grid</a></li>
-                                <li><a href="userprofile.html">user profile</a></li>
-                                <li class="it-last"><a href="userrate.html">user rate</a></li>
+                                <li><a href="userfavoritegrid.php">user favorite grid</a></li>
+                                <li><a href="userprofile.php">user profile</a></li>
                             </ul>
                         </li>
                     </ul>
