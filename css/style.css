@@ -4045,7 +4045,7 @@ ul {
 .trailers.full-width,
 .latestnew.full-width,
 .full-width {
-  padding: 70px 100px;
+  padding: 30px 50px;
 }
 @media (max-width: 767px) {
   .movie-items.full-width,
@@ -4653,11 +4653,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
 }
 .title-hd h2 {
   font-family: 'Dosis', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -4725,7 +4724,6 @@ ul {
   margin-left: 5px;
 }
 .tabs {
-  margin-bottom: 60px;
   overflow: hidden;
 }
 .tabs ul.tab-links,
